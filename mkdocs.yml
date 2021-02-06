@@ -68,7 +68,7 @@ plugins:
   - search
   - minify:
       minify_html: true
-  - git-revision-date #显示最后更新时间
+  # - git-revision-date #显示最后更新时间
 
 # Customization
 extra:
