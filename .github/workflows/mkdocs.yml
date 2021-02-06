@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v1
+        with:
+            python-version: 3.8
       - name: Install plugins
         run: 
           pip install mkdocs-git-revision-date-plugin
