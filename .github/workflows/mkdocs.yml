@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Deploy docs
-    runs-on: centos:8
+    runs-on: centos:7
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
